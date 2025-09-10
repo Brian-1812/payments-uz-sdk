@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "CommonJS",
+    "lib": ["ES2020"],
+    "declaration": true,
+    "outDir": "dist",
+    "rootDir": ".",
+    "skipLibCheck": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "types": ["node", "jest"],
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "noEmitOnError": true,
+    "allowJs": false
+  },
+  "include": [
+    "click/**/*.ts",
+    "payme/**/*.ts",
+    "errors/**/*.ts",
+    "utils/**/*.ts",
+    "types.ts",
+    "index.ts",
+    "tests/**/*.ts"
+  ],
+  "exclude": ["node_modules", "dist"]
+}

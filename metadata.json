@@ -1,0 +1,5 @@
+{
+  "name": "Uzbekistan Payments SDK",
+  "description": "A comprehensive NPM package, written in TypeScript, to simplify integration with Uzbekistan's popular payment providers like Payme and Click. It provides an easy-to-use API for handling card payments, generating invoices, and processing webhooks.",
+  "requestFramePermissions": []
+}
